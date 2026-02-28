@@ -1,5 +1,6 @@
 "use client";
 
+
 import Link from "next/link";
 import { Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin } from "lucide-react";
 import { usePathname } from "next/navigation";
