@@ -1,5 +1,6 @@
 "use client";
 
+
 import { useEffect, useState } from "react";
 import api from "@/lib/axios";
 import { AvailabilitySlot, Category } from "@/types";
