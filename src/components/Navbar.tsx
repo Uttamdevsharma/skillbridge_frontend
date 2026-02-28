@@ -1,5 +1,6 @@
 "use client";
 
+
 import Link from "next/link";
 import { useAuth } from "@/components/AuthProvider";
 import { LogOut, LayoutDashboard, Menu, X, Search, Sparkles } from "lucide-react";
