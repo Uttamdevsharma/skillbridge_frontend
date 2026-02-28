@@ -20,6 +20,7 @@ function TutorsList() {
   useEffect(() => {
     const fetchData = async () => {
       setLoading(true);
+      
       try {
         const [tutorsRes, categoriesRes] = await Promise.all([
           api.get("/tutors", {
