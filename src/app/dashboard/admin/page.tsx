@@ -1,6 +1,5 @@
 "use client";
 
-
 import { useEffect, useState } from "react";
 import api from "@/lib/axios";
 import { Users, GraduationCap, Calendar, TrendingUp, ArrowRight, Loader2, BookOpen, AlertCircle } from "lucide-react";
