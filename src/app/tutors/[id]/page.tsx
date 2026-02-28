@@ -23,6 +23,7 @@ export default function TutorDetailsPage({ params }: { params: Promise<{ id: str
   useEffect(() => {
     const fetchTutor = async () => {
       try {
+        
         const response = await api.get(`/tutors/${id}`);
         setTutor(response.data.data.tutor);
         setSlots(response.data.data.slots);
